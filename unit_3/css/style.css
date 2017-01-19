@@ -1,0 +1,52 @@
+body {
+	background: url("https://img.revinate.com/image/upload/v1451951292/convergence-1024x486.jpg_gmcwpy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	font-family: "Source Sans Pro", serif;
+	color: rgb(104,145,178);
+}
+
+div {
+	background-color: rgba(255,255,255,0.9);
+	padding: 100px;
+	width: 80%;
+	margin: auto;
+
+}
+
+h1 { 
+	color: rgb(178,79,82);
+	font-size: 60px;
+	font-weight: 100;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+p { 
+	font-size: 16px;
+
+}
+
+ul { 
+	text-align: center;
+	list-style-type: none;
+}
+
+#slogan { 
+	font-style: italic;
+	font-size: 20px;
+}
+
+#asterisk {
+	font-size: 12px;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
