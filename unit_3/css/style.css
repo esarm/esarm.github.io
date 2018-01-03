@@ -1,10 +1,102 @@
 body {
-	background-image: url(images/mayer-mcmufferson.jpg);
-	background-position: right top;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
 }
 
-h1, p { 
-	color: #FFE3E4;
+div {
+	padding: 5%;
 }
+
+div#headerLeft {
+	display: inline-block;
+}
+
+div#headerRight {
+	display: inline-block;
+	text-align: right;
+	position: absolute;
+}
+
+img#headerImg {
+	max-width: 100%;
+	height: auto;
+}
+
+div#portfolio {
+	background-color: #A0B6CC;
+}
+
+div#about {
+	background-color: #758595;
+}
+
+div#contact {
+	background-color: #6397CC;
+}
+
+div.nav {
+	background-color: #1E2226;
+	display: block;
+}
+
+h1 {
+	font-size: 7.5em;
+	font-weight: bold;
+	line-height: 1;
+	letter-spacing: -0.05em;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 3em;
+	line-height: 1;
+	color: #1E2226;
+	letter-spacing: -0.05em;
+}
+
+h3 {
+	font-size: 2.25em;
+	font-weight: 100;
+	font-style: italic;
+	color: #758595;
+	line-height: 1;
+	letter-spacing: -0.05em;
+	margin-top: 1;
+}
+
+p {
+	font-size: 1em;
+	color: #000000;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: ;
+}
+
+span {
+	color: #27537F;
+}
+
+ul#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.nav {
+	float: left;
+	border-right: 1px solid #ffffff;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 1.5em;
+}
+
+
