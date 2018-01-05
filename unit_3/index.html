@@ -1,84 +1,92 @@
 <!DOCTYPE html>
   <html>
 	<head>
-		<title>Hello, I'm Erin Do</title>
+		<title>Hello, I'm Erin Do.</title>
+
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed' rel='stylesheet'>
     </head>
   <body>
- 		
-  		<div>
-  			<nav>
-				<a href="#">Portfolio</a>
-				<a href="#">About</a>
-				<a href="#">Contact</a>
+	  	<header>
+	  		<nav>
+				<a class="navLink" href="#portfolio">Portfolio</a> <span class="verticalLine">|</span>
+				<a class="navLink" href="#about">About</a> <span class="verticalLine">|</span>
+				<a class="navLink" href="#contact">Contact</a> <span class="verticalLine">
 			</nav>
-	  	</div>
 
-	  	<div id="headerLeft">
-		  	<h1>Hell<span>ō</span>,<br>
-		  	I'm Erin D<span>ō</span>.</h1>
+			<div id="hello">
+				<h1>Hell<span class="o">ō</span>,<br>
+		  		I'm Erin D<span class="o">ō</span>.</h1>
 
-		  	<h3>Current marketer. Aspiring designer. Corgi mom.</h3>
-	    
-		</div>
+		  		<h3>Current marketer. Aspiring designer. Corgi mom.</h3>
+		  	</div>
+	  	</header>
 
-		<div id="headerRight">
-		  	<img id="headerImg" src="images/mayer-mcmufferson.jpg" alt="Mayer, a tricolor Corgi, looking up" title="Mayer, the tricolor Corgi">	    
-		</div>		
+		<section id="portfolio">
+			<div class="sectionHeading">
+				<h2>Portfolio</h2>
+			</div>
 
-		<div id="portfolio">
-			<h2>Portfolio</h2>
+		  	<img src="images/image-placeholder.png" alt="Empty, white box" title="Image placeholder">
 
-		  	<img src="images/image-placeholder.png" alt="White box" title="Image placeholder">
+		  	<div>
+		  		<h3 class="portfolioItem">Stanford Summer Session</h3>
+		  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 	</div>
 
-		  	<h3>Portfolio item #1</h3>
-		  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  	<img src="images/image-placeholder.png" alt="Empty, white box" title="Image placeholder">
 
-		  	<img src="images/image-placeholder.png" alt="White box" title="Image placeholder">
+		  	<div> 
+		  		<h3 class="portfolioItem">Eventful Design Studio</h3>
+		  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  		</div>
 
-		  	<h3>Portfolio item #2</h3>
-		  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		  	<img src="images/image-placeholder.png" alt="Empty, white box" title="Image placeholder">
 
-		  	<img src="images/image-placeholder.png" alt="White box" title="Image placeholder">
+		  	<div>
+	  			<h3 class="portfolioItem">the minnow PROJECT</h3>
+		  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		 	 </div>
+		</section>
 
-		  	<h3>Portfolio item #3</h3>
-		  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
+		<section id="about">
+			<div class="sectionHeading">
+				<h2>About</h2>
+			</div>
 
-		<div id="about">
-			<h2>About</h2>
+		  	<div>
+		  		<h3>Summary: Midwest transplant living in the Bay Area.</h3>
+		  		<p>My favorite things to do include (in no particular order): 
+		  			<ul>
+		  				<li>Eating at my favorite restaurants and discovering new foods to try.</li>
+		  				<li>Going to concerts. Fun fact: I've attended over 60 since moving to the Bay Area in 2013.</li>
+		  				<li>Traveling to...anywhere...with my husband. But, my favorite places to visit are Hawaii and Chicago.</li>
+		  				<li>Playing with my puppy, Mayer. Yup! He's named after John Mayer.</li>
+		  			</ul>
+		  		</p>
+		  		<p>My future aspirations include (again, in no particular order):
+		  			<ul>
+		  				<li>Participate in a food challenge.</li>
+		  				<li>Conversely, run a half-marathon.</li>
+		  				<li>Build up enough skills to change careers and design all day, every day.</li>
+		  			</ul>
+		  		</p>
+	  		</div>
+		</section>
 
-		  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		  	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		  	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		  	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		  	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
+		<section id="contact">
+			<div class="sectionHeading">
+				<h2>Contact</h2>
+			</div>
 
-		<div id="contact">
-			<h2>Contact</h2>
-			<p>Contact me: <a href="mailto:erinsarmiento@gmail.com">erinsarmiento@gmail.com</a></p>
-		</div>
+			<div id="contactForm">
+				<p><a href="mailto:erinsarmiento@gmail.com">Contact me</a>.</p>
+			</div>
+		</section>
 
-		<div id="footer">
-			Footer info goes here.
-		</div>
+		<footer>
+			<p>&copy; 2018 Erin Do</p>
+		</footer>
 
   </body>
 </html>

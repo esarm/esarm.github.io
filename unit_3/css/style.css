@@ -1,83 +1,112 @@
-body {
-	background-color: #ffffff;
-	font-family: Arial, sans-serif;
-	font-size: 100%;
+* {
+	padding: 0; 
+	margin: 0;
 }
 
-div {
-	padding: 5%;
+body {
+	font-size: 100%;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #1c2625;
+}
+
+section, footer, nav {
+	padding: 4%;
+}
+
+header {
+	margin-bottom: 6%;
 }
 
 nav {
-	text-transform: uppercase;
-	font-size: 1.25em;
+	background-color: #244449;
+	font-size: 1.5em;
 	font-weight: 100;
+	text-align: center;
+	word-spacing: 5.25em;
+	text-transform: uppercase;
+	margin-bottom: 8%;
+}
+
+a.navLink {
+	color: #ffffff;
+}
+
+header {
 	text-align: center;
 }
 
-div#headerLeft {
-	display: inline-block;
-}
+/*div#hello {
+	padding: 2% 3% 1%;
+}*/
 
-div#headerRight {
+/*header#right {
 	display: inline-block;
-	text-align: right;
+	vertical-align: right;
 	position: absolute;
-}
+}*/
 
-img#headerImg {
+/*img#headerImg {
 	max-width: 100%;
+	max-height: 400px;
 	height: auto;
+}*/
+
+section#portfolio {
+	background-color: #e2d4cb;
 }
 
-div#portfolio {
-	background-color: #A0B6CC;
+section#about {
+	background-color: #ddefe1;
 }
 
-div#about {
-	background-color: #758595;
-}
-
-div#contact {
-	background-color: #6397CC;
+section#contact {
+	background-color: #dbdddc;
 }
 
 h1 {
-	font-size: 7.5em;
+	font-size: 10em;
 	font-weight: bold;
 	line-height: 1;
-	letter-spacing: -0.05em;
 	margin-bottom: 0;
 }
 
 h2 {
 	font-size: 3em;
 	line-height: 1;
-	color: #1E2226;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 }
 
 h3 {
-	font-size: 2.25em;
+	font-size: 2.5em;
 	font-weight: 100;
-	color: #758595;
+	color: #244449;
 	line-height: 1;
-	letter-spacing: -0.025em;
 	margin-top: 1;
 }
 
-p {
-	font-size: 1em;
-	color: #000000;
-	line-height: 1.5;
+p, ul {
+	font-size: 1.25em;
+	line-height: 1.25;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 a {
 	text-decoration: none;
-	color: ;
+	color: #7088A1;
 }
 
-span {
-	color: #27537F;
+ul {
+	padding-left: 2%;
+	text-indent: 0.25em;
+}
+
+span.o {
+	color: #477263;
+}
+
+span.verticalLine {
+	color: #e2d4cb;
+	font-size: 1em;
+	font-weight: 100; 
 }
