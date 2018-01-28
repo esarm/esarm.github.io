@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Condensed);
+
 * {
 	padding: 0; 
 	margin: 0;
 }
-
+			
 body {
 	font-size: 100%;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
@@ -22,7 +24,7 @@ nav {
 	font-size: 1.5em;
 	font-weight: 100;
 	text-align: center;
-	word-spacing: 5.25em;
+	word-spacing: 4.15em;
 	text-transform: uppercase;
 	margin-bottom: 8%;
 }
