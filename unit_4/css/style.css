@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato|Fira+Sans+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Spectral:400,400i,700,700i);
 
 * {
 	padding: 0; 
@@ -6,7 +6,7 @@
 }
 			
 body {
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px; /*1em = 16px*/
 	color: #1c2625;
 }
@@ -26,7 +26,7 @@ header {
 nav {
 	background-color: #1f4058;
 	font-size: 1.5em;
-	font-weight: 100;
+	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
 /*	word-spacing: 4.15em;*/
@@ -64,8 +64,8 @@ h1 {
 	font-size: 10em;
 	font-weight: bold;
 	line-height: 1;
-	letter-spacing: -0.04em;
-	margin-bottom: 0;
+	letter-spacing: -0.08em;
+	margin-bottom: 0.25em;
 }
 
 h2 {
@@ -84,12 +84,16 @@ h3 {
 }
 
 h3#subHeadline {
+	font-family: 'Spectral', serif;
+	font-size: 3em;
+	letter-spacing: -0.05em;
 	width: auto;
 }
 
 p, ul {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Spectral', serif;
 	font-size: 1.25em;
+	letter-spacing: -0.03em;
 	line-height: 1.25;
 	width: 20em;
 	margin-top: 0.5em;
@@ -114,8 +118,8 @@ span.o {
 	color: #175676;
 }
 
-span.verticalLine {
+/*span.verticalLine {
 	font-size: 1em;
-	font-weight: 100; 
+	font-weight: 700; 
 	color: #FFDBAF;
-}
+}*/
